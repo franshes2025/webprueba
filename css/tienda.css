@@ -1,0 +1,78 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #212121;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+        }
+        .contenedor {
+            width: 90%;
+            margin: 30px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .producto {
+            width: 100%;
+            max-width: 300px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .producto:hover {
+            transform: scale(1.05);
+        }
+        .producto img {
+            width: 80%;
+            border-radius: 10px;
+        }
+        .producto h2 {
+            color: #212121;
+            margin: 20px 0 10px;
+        }
+        .producto p {
+            color: #43631e;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .producto .precio {
+            color: #8bc34a;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .boton {
+            color: #8bc34a;
+            border: 2px solid #8bc34a;
+            font-size: 20px;
+            width: 50%;
+            text-align: center;
+            margin: 30px auto;
+            padding: 10px 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        a {
+            text-decoration: none;
+        }
+        .boton:hover {
+            background-color: #8bc34a;
+            color: #212121;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 50px 0 20px;
+            font-family: "Lobster Two", sans-serif;
+            font-weight: 600;
+            font-style: italic;
+        }
+        hr {
+            margin: 20px auto;
+            width: 80%;
+            border: 1px solid #8bc34a;
+        }
